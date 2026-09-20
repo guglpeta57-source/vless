@@ -5,13 +5,13 @@
   "inbounds": [
     {
       "listen": "0.0.0.0",
-      "port": 10000,
+      "port": 8080,
       "protocol": "vless",
       "settings": {
         "clients": [
           {
             "id": "7ed3bcca-606d-4338-8156-78d29cce87dc",
-            "email": "user"
+            "level": 0
           }
         ],
         "decryption": "none"
@@ -27,8 +27,7 @@
   ],
   "outbounds": [
     {
-      "protocol": "freedom",
-      "settings": {}
+      "protocol": "freedom"
     }
   ]
 }
